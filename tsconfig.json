@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES6",
+    "outDir": "js_from_ts",
     "noEmit": false
   },
   "include": ["src/**/*"]

@@ -1,15 +1,8 @@
-interface contact {
-  id: number;
-  name: string;
-  birthday: Date;
-}
-
-const Tony: contact = {
-  id: 112321,
-  name: "Tony Stark",
-  birthday: new Date(),
+const Tony = {
+    id: 112321,
+    name: "Tony Stark",
+    birthday: new Date(),
 };
-
 const content = `
 id : ${Tony.id},<br>
 Name: ${Tony.name},<br>
